@@ -70,7 +70,7 @@ namespace GoogleVoice
             //}
 
             Choices voiceCommands = new Choices();
-            voiceCommands.Add(new string[] { "Add an event to my Google Calendar.", "Delete an event from my Google Calendar."});
+            voiceCommands.Add(new string[] { "Add an event to my Google Calendar.", "Delete an event from my Google Calendar.", "Update my Google Calendar.", "Get an event from my Google Calendar", "Scrape my schedule into Google Calendar."});
             GrammarBuilder grammarBuilder = new GrammarBuilder();
             //grammarBuilder.AppendDictation(); //New
             grammarBuilder.Append(voiceCommands);
@@ -174,6 +174,15 @@ namespace GoogleVoice
                     case "Delete an event from my Google Calendar.":
                         deleteEvent delEvent = new deleteEvent();
                         delEvent.deleteAnEvent();
+                        break;
+
+                    case "Update my Google Calendar.":
+                        break;
+
+                    case "Get an event from my Google Calendar.":
+                        break;
+
+                    case "Scrape my schedule into Google Calendar.":
                         break;
                 }
             });
