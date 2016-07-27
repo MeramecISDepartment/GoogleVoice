@@ -204,3 +204,38 @@ namespace GoogleVoice
         }
     }
 }
+
+
+
+
+/*
+*
+* a few links [from Dad]
+*
+* How to create your own speech recognition application with tasker -
+*
+* 
+*
+* http://www.abidibo.net/blog/2013/10/02/how-create-your-own-speech-recognition-application-tasker/
+*
+* 
+*
+* 
+* 
+* 16 Android Voice Actions to Make Android Your Own Personal Assistant
+*
+* http://www.howtogeek.com/139413/16-android-voice-actions-to-make-android-your-own-personal-assistant/
+*
+* Get user input from Speech?
+*
+* http://stackoverflow.com/questions/17878565/get-user-input-from-speech
+*
+* 
+*
+* 
+*
+* Simple Speech Recognition Using C#
+*
+* http://www.prodigyproductionsllc.com/articles/programming/simple-speech-recognition-using-c/
+*
+*/
